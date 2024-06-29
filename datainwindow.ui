@@ -1,0 +1,1053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DataInWindow</class>
+ <widget class="QMainWindow" name="DataInWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>571</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>341</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>今日身高</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="inheigth"/>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>今日体重</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="inweight"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>224</width>
+      <height>174</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>明天想吃些啥？</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>早餐</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_breakfast_tomorrow">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>燕麦片，香蕉，果仁</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>全麦吐司，鸡蛋，西红柿</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>希腊酸奶，蓝莓，坚果</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>菠菜蘑菇蛋煎饼，水果沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤麦片，酸奶，水果块</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>燕麦片，杏仁，鲜果沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>全麦吐司，鳄梨，荷包蛋</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>杂粮粥，红枣，核桃</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>菠菜蘑菇蛋煎饼，水果沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高纤水果燕麦粥，全麦面包</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>煎荷包蛋，全麦吐司，新鲜水果</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>酸奶，水果，麦片</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>燕麦粥，果仁，水煮蛋</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>全麦面包夹火腿，牛奶</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>杂粮粥，红枣，豆浆</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>午餐</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_lunch_tomorrow">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鸡胸肉沙拉，橄榄油醋汁</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鳗鱼寿司卷，鲜蔬沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤三文鱼，烤蔬菜，糙米</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>手撕鸡胸肉色拉，沙拉酱</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤鸡腿，意大利面，番茄酱</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>清炒时蔬，蒸鸡胸肉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>紫薯饭团，海苔沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>红烧茄子，扬州炒饭</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>蒸鲈鱼，凉拌黄瓜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>蒸蛋羹，糙米饭，酸辣土豆丝</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鸡肉沙拉，橄榄油醋汁</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>黑米，鱼香肉丝，香菇青菜汤</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤三文鱼，糙米饭，清炒时蔬</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>青椒肉丝，红烧茄子，糙米饭</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>香煎鸡胸，炒时蔬，糙米饭</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>晚餐</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_dinner_tomorrow">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤鲈鱼，蒸蔬菜，糙米</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤鸡柳，烤红薯，绿叶蔬菜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>紫甘蓝鸡肉卷，糙米饭</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤鳕鱼，蔬菜炒饭</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤羊排，烤蔬菜，番茄意大利面</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>茄汁炒虾仁，蒸青菜，玉米粥</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>白灼鸡脯，凉拌海带丝</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>茄汁豆腐，蒸时蔬，莜麦面条</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>紫菜豆腐汤，海带沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>粗粮虾仁炒饭，凉拌海带丝</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鲈鱼蒸蔬菜，莲藕莜麦粥</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>煎三文鱼，绿叶蔬菜沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>紫甘蓝蒸鸡块，红豆小米粥</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>素炒豆腐，糙米饭，凉拌海带丝</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>清蒸鲈鱼，炒时蔬，糙米饭</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>440</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_4">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>250</y>
+      <width>151</width>
+      <height>174</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_5">
+     <item>
+      <widget class="QLabel" name="label_19">
+       <property name="text">
+        <string>明天想做些啥？</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_20">
+       <property name="text">
+        <string>早晨</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_sport_morning_tomorrow">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>跑步</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>游泳</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>羽毛球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>网球</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_21">
+       <property name="text">
+        <string>中午</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_sport_noon_tomorrow">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>跑步</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>游泳</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>羽毛球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>网球</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_22">
+       <property name="text">
+        <string>傍晚</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_sport_evening_tomorrow">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>跑步</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>游泳</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>羽毛球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>网球</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>316</width>
+      <height>174</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>晚餐</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLabel" name="label_17">
+       <property name="text">
+        <string>  g</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>早餐</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QComboBox" name="comboBox_dinner_today">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤鲈鱼，蒸蔬菜，糙米</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤鸡柳，烤红薯，绿叶蔬菜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>紫甘蓝鸡肉卷，糙米饭</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤鳕鱼，蔬菜炒饭</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤羊排，烤蔬菜，番茄意大利面</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>茄汁炒虾仁，蒸青菜，玉米粥</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>白灼鸡脯，凉拌海带丝</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>茄汁豆腐，蒸时蔬，莜麦面条</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>紫菜豆腐汤，海带沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>粗粮虾仁炒饭，凉拌海带丝</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鲈鱼蒸蔬菜，莲藕莜麦粥</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>煎三文鱼，绿叶蔬菜沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>紫甘蓝蒸鸡块，红豆小米粥</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>素炒豆腐，糙米饭，凉拌海带丝</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>清蒸鲈鱼，炒时蔬，糙米饭</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEdit_lunch"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QComboBox" name="comboBox_breakfast_today">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>燕麦片，香蕉，果仁</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>全麦吐司，鸡蛋，西红柿</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>希腊酸奶，蓝莓，坚果</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>菠菜蘑菇蛋煎饼，水果沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤麦片，酸奶，水果块</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>燕麦片，杏仁，鲜果沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>全麦吐司，鳄梨，荷包蛋</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>杂粮粥，红枣，核桃</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>菠菜蘑菇蛋煎饼，水果沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高纤水果燕麦粥，全麦面包</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>煎荷包蛋，全麦吐司，新鲜水果</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>酸奶，水果，麦片</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>燕麦粥，果仁，水煮蛋</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>全麦面包夹火腿，牛奶</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>杂粮粥，红枣，豆浆</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="lineEdit_dinner"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_breakfast"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>  g            </string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>午餐</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QComboBox" name="comboBox_lunch_today">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鸡胸肉沙拉，橄榄油醋汁</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鳗鱼寿司卷，鲜蔬沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤三文鱼，烤蔬菜，糙米</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>手撕鸡胸肉色拉，沙拉酱</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤鸡腿，意大利面，番茄酱</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>清炒时蔬，蒸鸡胸肉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>紫薯饭团，海苔沙拉</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>红烧茄子，扬州炒饭</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>蒸鲈鱼，凉拌黄瓜</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>蒸蛋羹，糙米饭，酸辣土豆丝</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>鸡肉沙拉，橄榄油醋汁</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>黑米，鱼香肉丝，香菇青菜汤</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>烤三文鱼，糙米饭，清炒时蔬</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>青椒肉丝，红烧茄子，糙米饭</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>香煎鸡胸，炒时蔬，糙米饭</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>今天吃了些啥？</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>  g</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>60</y>
+      <width>201</width>
+      <height>174</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lineEdit_sport_n"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>傍晚</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="lineEdit_sport_e"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>中午</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QComboBox" name="comboBox_sport_morning_today">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>跑步</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>游泳</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>羽毛球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>网球</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QComboBox" name="comboBox_sport_noon_today">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>跑步</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>游泳</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>羽毛球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>网球</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="lineEdit_sport_m"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>早晨</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QComboBox" name="comboBox_sport_evening_today">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>跑步</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>游泳</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>篮球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>羽毛球</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>网球</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>今天做了些啥？</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_18">
+       <property name="text">
+        <string>  h            </string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLabel" name="label_23">
+       <property name="text">
+        <string>  h</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLabel" name="label_24">
+       <property name="text">
+        <string>  h </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>250</y>
+      <width>101</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_25">
+       <property name="text">
+        <string>输入关键词，</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_27">
+       <property name="text">
+        <string>我们来安排</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="textEdit_keyword">
+       <property name="html">
+        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Microsoft YaHei UI'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_26">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>280</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>或者</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
